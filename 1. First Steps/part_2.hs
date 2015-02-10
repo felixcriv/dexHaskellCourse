@@ -16,7 +16,7 @@ quadruple x = double (double x)
 -- product is an enviroment function
 factorial n = product [1..n]
 
--- x `f` y is f x y
+-- x `f` y --> f x y
 average ns = sum ns `div` length ns
 
 
